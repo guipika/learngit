@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public List<User> findAll() {
-		
+		System.out.println("高进的项目");
 		return userdao.findAll();
 	}
 
